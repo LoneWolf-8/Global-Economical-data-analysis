@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Global Economical Data Analysis</title>
+</head>
+<body>
+    <div class ="background">
+        <h1>Global Economical Data Analysis</h1>
+        <p>A Basic Data Analysis report, which describes various factors such as GDP, Inflation rate,
+            Unemployment, Imports and Exports of goods and services along with trade balances.
+            <br>
+            This report contains data from various countries (China, Germany, India, Japan, Russia, and USA)
+            From the Financial years of 2012 to 2022.
+            <br>
+            <br>
+            This data set is taken from World bank open data source.<br>
+            All rights of this data set belongs to World bank and this report is for educational purposes only.
+        </p>  
+        <button id="viewButton">View Report</button>
+    </div>
+    <script> 
+        document.getElementById('viewButton').addEventListener('click', function() {
+            window.location.href = 'https://us1.ca.analytics.ibm.com/bi/?perspective=dashboard&pathRef=.my_folders%2FGlobal%2BData%2BEcnomics&action=view&mode=dashboard'; // Replace with your online project URL
+        });
+    </script>
+</body>
+</html>
